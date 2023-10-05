@@ -57,7 +57,7 @@
                 <p>Novel Nook is a simple, easy to use personal library system. It allows for the logging of books into different categories to keep tracks of books you own, have read, or want to read. It utilizes <strong class="text-orange-400">vanilla Javascript for the client-side,PHP for the server-side, and MySQL for a persistent database.</strong> Created for Auburn University's Web Development 2 Final Project.</p>
             </Step>
             <Step step={steps[1]}>
-                <p>State Your Claim is an educational game aimed to teach and reinforce knowledge of American States and Capitals. It was created utilizing the <strong class="text-orange-400">Godot open-source game engine and was written in GDScript (a Python-Like Godot-specific language).</strong> The project was created for Auburn University's Game Development course.</p>
+                <p>State Your Claim is an educational game aimed to teach and reinforce knowledge of American States and Capitals. It was created utilizing the <strong class="text-orange-400">Godot open-source game engine and was written in GDScript (a Python-Like Godot-specific language).</strong> The project was created for Auburn University's Game Development course (Windows only).</p>
             </Step>
             <Step step={steps[2]}>
                 <p>WIP</p>
