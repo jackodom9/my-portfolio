@@ -30,7 +30,7 @@
             </h2>
             <p class="text-base sm:text-lg md:text-xl">
                 My <span class = "text-orange-400">favorite technologies</span> include web development tools (<strong class="text-orange-400">Javascript, PHP, SvelteKit, TailwindCSS</strong>),
-                game development tools (<strong class="text-orange-400">Godot, Unity</strong>), mobile development tools (<strong class="text-orange-400">Swift, Xcode</strong>) as well as a variety of other technologies (<strong class="text-orange-400">Java, Python, SQL</strong>). Feel free to reach out to learn more!
+                game development tools (<strong class="text-orange-400">Godot, Unity</strong>), mobile development tools (<strong class="text-orange-400">Swift, Xcode</strong>) as well as a variety of other technologies (<strong class="text-orange-400">Java, C#, Python, SQL</strong>). Feel free to reach out to learn more!
             </p>
             <a href="#" on:click={ scrollToBottom } class="blueShadow mx-auto lg:mr-auto lg:ml-0 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full bg-white text-slate-950">
                 <div class="absolute top-0 right-full w-full h-full bg-orange-400 opacity-20 group-hover:translate-x-full z-0 duration-200"></div>
