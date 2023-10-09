@@ -4,7 +4,7 @@
     let steps = [
         {name: 'Novel Nook', icon:'fa-solid fa-book', href: 'http://webhome.auburn.edu/~jeo0011/FinalProject/'},
         {name: 'State Your Claim', icon:'fa-solid fa-flag-usa', href: 'https://jackodom9.itch.io/state-your-business'},
-        {name: 'Patent ChatBot', icon:'fa-solid fa-chalkboard-user'}
+        {name: 'PunchLine CrunchTime', icon:'fa-solid fa-microphone-lines', href: 'https://chimefever.itch.io/punchline-crunchtime'}
     ];
 
     let benefits = [
@@ -60,7 +60,7 @@
                 <p>State Your Claim is an educational game aimed to teach and reinforce knowledge of American States and Capitals. It was created utilizing the <strong class="text-orange-400">Godot open-source game engine and was written in GDScript (a Python-Like Godot-specific language).</strong> The project was created for Auburn University's Game Development course (Windows only).</p>
             </Step>
             <Step step={steps[2]}>
-                <p>WIP</p>
+                <p>PunchLine CrunchTime is a game created by myself in collaboration with my friend ChimeFever. It was created in 2 days for the Ludem Dare 53 game jam, the theme for the jam was "Delivery". This game takes a creative spin on the theme and utilizes quicktime events to make the player have proper timing on "delivering" jokes. It was created utilizing the <strong class="text-orange-400">Godot open-source game engine and was written in GDScript (a Python-Like Godot-specific language).</strong> (Windows Only)</p>
             </Step>
         </div>
     </section>
