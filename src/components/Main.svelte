@@ -29,12 +29,12 @@
                 <span class="poppins" style="color: #E87722">Developer</span>
             </h2>
             <p class="text-base sm:text-lg md:text-xl">
-                My <span style="color: #E87722">favorite technologies</span> include web development tools (Javascript, PHP, SvelteKit),
-                game development tools (Godot, Unity), as well as a variety of other technologies (Java, Python, SQL).
+                My <span class = "text-orange-400">favorite technologies</span> include web development tools (<strong class="text-orange-400">Javascript, PHP, SvelteKit, TailwindCSS</strong>),
+                game development tools (<strong class="text-orange-400">Godot, Unity</strong>), mobile development tools (<strong class="text-orange-400">Swift, Xcode</strong>) as well as a variety of other technologies (<strong class="text-orange-400">Java, Python, SQL</strong>). Feel free to reach out to learn more!
             </p>
             <a href="#" on:click={ scrollToBottom } class="blueShadow mx-auto lg:mr-auto lg:ml-0 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full bg-white text-slate-950">
                 <div class="absolute top-0 right-full w-full h-full bg-orange-400 opacity-20 group-hover:translate-x-full z-0 duration-200"></div>
-                <h4 class="relative z-9">Get in touch &rarr;</h4>
+                <h4 class="relative z-9">Contact Information &rarr;</h4>
             </a>
         </div>
         <div class=" grid place-items-center">
@@ -46,15 +46,15 @@
     <section id="projects" class="py-20 lg:py-32 flex flex-col gap-24">
         <div class="flex flex-col gap-2 text-center">
             <h6 class="text-lg sm:text-xl md:text-2xl">
-                A few of my creative endeavors.
+                Some Personal Projects I have created.
             </h6>
             <h3 class="font-semibold text-3xl sm:text-4xl md:text-5xl">
-                Curious to <span class="poppins text-orange-400">see</span> my work?
+                Please follow the links, and <span class="poppins text-orange-400">see</span> my work!
             </h3>
         </div>
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10">
             <Step step={steps[0]}>
-                <p>Novel Nook is a simple, easy to use personal library system. It allows for the logging of books into different categories to keep tracks of books you own, have read, or want to read. It utilizes <strong class="text-orange-400">vanilla Javascript for the client-side,PHP for the server-side, and MySQL for a persistent database.</strong> Created for Auburn University's Web Development 2 Final Project.</p>
+                <p>Novel Nook is a simple, easy to use personal library system. It allows for the logging of books into different categories to keep tracks of books you own, have read, or want to read. It utilizes <strong class="text-orange-400">vanilla Javascript for the client-side, PHP for the server-side, and MySQL for a persistent database.</strong> Created for Auburn University's Web Development 2 Final Project.</p>
             </Step>
             <Step step={steps[1]}>
                 <p>State Your Claim is an educational game aimed to teach and reinforce knowledge of American States and Capitals. It was created utilizing the <strong class="text-orange-400">Godot open-source game engine and was written in GDScript (a Python-Like Godot-specific language).</strong> The project was created for Auburn University's Game Development course (Windows only).</p>
@@ -67,10 +67,10 @@
     <section id="about" class="py-20 pt-10 lg:pt-16 lg:py-32 flex flex-col gap-16 sm:gap-20 md:gap-24 relative">
         <div class="flex flex-col gap-2 text-center relative before:absolute before:top-0 before:left-0 before:w-2/3 before:h-1.5 before:bg-orange-700 after:absolute after:bottom-0 after:right-0 after:w-2/3 after:h-1.5 after:bg-orange-700 py-4">
             <h6 class="text-lg sm:text-xl md:text-2xl">
-                Want to Know more?
+                My history and experience.
             </h6>
             <h3 class="font-semibold text-3l sm:text-4xl md:text-5xl">
-                A bit <span class="poppins text-orange-400">about</span> me.
+                Some snippets <span class="poppins text-orange-400">about</span> me.
             </h3>
             <p class="mx-auto poppins font-semibold text-lg sm:text-xl md:text-2xl">
                 I am . . .
