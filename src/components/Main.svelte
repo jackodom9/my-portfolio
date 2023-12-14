@@ -3,8 +3,12 @@
 
     let steps = [
         {name: 'Novel Nook', icon:'fa-solid fa-book', href: 'http://webhome.auburn.edu/~jeo0011/FinalProject/'},
+        {name: 'Portfolio Website', icon: 'fa-solid fa-briefcase', href: 'https://www.jackodom.dev'},
+        {name: 'Luke Warm Seltzer', icon: 'fa-solid fa-fish', href: 'https://luke-warm-seltzer.vercel.app/'},
         {name: 'State Your Claim', icon:'fa-solid fa-flag-usa', href: 'https://jackodom9.itch.io/state-your-business'},
-        {name: 'PunchLine CrunchTime', icon:'fa-solid fa-microphone-lines', href: 'https://chimefever.itch.io/punchline-crunchtime'}
+        {name: 'PunchLine CrunchTime', icon:'fa-solid fa-microphone-lines', href: 'https://chimefever.itch.io/punchline-crunchtime'},
+        {name: 'Novel Nook (mobile)', icon:'fa-solid fa-book', href: 'http://webhome.auburn.edu/~jeo0011/FinalProject/'},
+        {name: 'Clickbait Classifier', icon: 'fa-solid fa-envelope', href: '#'}
     ];
 
     let benefits = [
@@ -49,18 +53,51 @@
                 Some Personal Projects I have created.
             </h6>
             <h3 class="font-semibold text-3xl sm:text-4xl md:text-5xl">
-                Please follow the links, and <span class="poppins text-orange-400">see</span> my work!
+                Please <span class="poppins text-orange-400">see</span> my work!
             </h3>
         </div>
+        <h3 class="font-semibold text-2xl sm:text-3xl md:text-4xl text-center">
+            (hosting and links are still in development for most)
+        </h3>
+        <h3 class="font-semibold text-2xl sm:text-3xl md:text-4xl text-center">
+            Web Development
+        </h3>
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10">
             <Step step={steps[0]}>
                 <p>Novel Nook is a simple, easy to use personal library system. It allows for the logging of books into different categories to keep tracks of books you own, have read, or want to read. It utilizes <strong class="text-orange-400">vanilla Javascript for the client-side, PHP for the server-side, and MySQL for a persistent database.</strong> Created for Auburn University's Web Development 2 Final Project.</p>
             </Step>
             <Step step={steps[1]}>
+                <p>My portfolio website is what you are looking at right now! This was created with to display my front-end development skills, and as a convenient and aesthetic place to showcase my professional capabilities. It was created with <strong class="text-orange-400">Javascript utilizing the Svelte framework for reactivity and is hosted with Vercel.</strong></p>
+            </Step>
+        </div>
+        <h3 class="font-semibold text-2xl sm:text-3xl md:text-4xl text-center">
+            Game Development
+        </h3>
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10">
+            <Step step={steps[2]}>
+                <p>Luke Warm Seltzer is a physics based 2D game created to emulate the popular arcade game Ice Cold Beer. It was created<strong class="text-orange-400"> using Javascript with the Phaser framework/game engine and is hosted on Vercel.</strong></p>
+            </Step>
+            <Step step={steps[3]}>
                 <p>State Your Claim is an educational game aimed to teach and reinforce knowledge of American States and Capitals. It was created utilizing the <strong class="text-orange-400">Godot open-source game engine and was written in GDScript (a Python-Like Godot-specific language).</strong> The project was created for Auburn University's Game Development course (Windows only).</p>
             </Step>
-            <Step step={steps[2]}>
+            <Step step={steps[4]}>
                 <p>PunchLine CrunchTime is a game created by myself in collaboration with my friend ChimeFever. It was created in 2 days for the Ludem Dare 53 game jam, the theme for the jam was "Delivery". This game takes a creative spin on the theme and utilizes quicktime events to make the player have proper timing on "delivering" jokes. It was created utilizing the <strong class="text-orange-400">Godot open-source game engine and was written in GDScript (a Python-Like Godot-specific language).</strong> (Windows Only)</p>
+            </Step>
+        </div>
+        <h3 class="font-semibold text-2xl sm:text-3xl md:text-4xl text-center">
+            Mobile Development
+        </h3>
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10">
+            <Step step={steps[5]}>
+                <p>Novel Nook is a simple, easy to use personal library system. It allows for the logging of books into different categories to keep tracks of books you own, have read, or want to read. This is the Iphone implementation of my previously created CRUD webapp. It utilizes <strong class="text-orange-400">SwiftUI and the Swift programming language for the front end, with the back end hosted on Firebase with Fireauth for the user authentication and Firestore for the NoSQL database.</strong> Created for Auburn University's Mobile Development 2 Final Project.</p>
+            </Step>
+        </div>
+        <h3 class="font-semibold text-2xl sm:text-3xl md:text-4xl text-center">
+            Machine Learning/Artifical Intelligence
+        </h3>
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10">
+            <Step step={steps[6]}>
+                <p>A robust clickbait classifier project. The lexicon was first cleaned and formatted, then 3 different models were built for academic comparison: K-Nearest Neighbors, Naive Bayes Implementation, and a Multilayer Perceptron (feedforward neural network). <strong class="text-orange-400">Built in Python utilizing NumPy, pandas, and scikit-learn.</strong> Created for Auburn University's ML/AI class.</p>
             </Step>
         </div>
     </section>
