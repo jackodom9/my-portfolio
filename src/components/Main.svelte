@@ -2,14 +2,22 @@
     import Step from "./Step.svelte";
 
     let steps = [
-        {name: 'Novel Nook', icon:'fa-solid fa-book', href: 'http://webhome.auburn.edu/~jeo0011/FinalProject/'},
-        {name: 'Portfolio Website', icon: 'fa-solid fa-briefcase', href: 'https://www.jackodom.dev'},
-        {name: 'Luke Warm Seltzer', icon: 'fa-solid fa-fish', href: 'https://luke-warm-seltzer.vercel.app/'},
-        {name: 'State Your Claim', icon:'fa-solid fa-flag-usa', href: 'https://jackodom9.itch.io/state-your-business'},
-        {name: 'PunchLine CrunchTime', icon:'fa-solid fa-microphone-lines', href: 'https://chimefever.itch.io/punchline-crunchtime'},
-        {name: 'Novel Nook (mobile)', icon:'fa-solid fa-book', href: 'http://webhome.auburn.edu/~jeo0011/FinalProject/'},
+        {name: 'Novel Nook', icon:'fa-solid fa-book', href: '#'},
+        {name: 'Portfolio Website', icon: 'fa-solid fa-briefcase', href: '#'},
+        {name: 'Luke Warm Seltzer', icon: 'fa-solid fa-fish', href: '#'},
+        {name: 'State Your Claim', icon:'fa-solid fa-flag-usa', href: '#'},
+        {name: 'PunchLine CrunchTime', icon:'fa-solid fa-microphone-lines', href: '#'},
+        {name: 'Novel Nook (mobile)', icon:'fa-solid fa-book', href: '#'},
         {name: 'Clickbait Classifier', icon: 'fa-solid fa-envelope', href: '#'}
     ];
+
+    let links = ['http://webhome.auburn.edu/~jeo0011/FinalProject/',
+                'https://www.jackodom.dev',
+                'https://luke-warm-seltzer.vercel.app/',
+                'https://jackodom9.itch.io/state-your-business',
+                'https://chimefever.itch.io/punchline-crunchtime',
+                'https://chimefever.itch.io/punchline-crunchtime'
+                ];
 
     let benefits = [
         {name: 'From an well-rounded engineering background:', description: 'I originally completed a bachelors in Chemical Engineering in 2020. During the course of that I worked as a Process Engineer for Freudenberg-NOK Sealing Technologies manufacturing sealing devices (O-rings, D-rings, Gaskets, etc.). After graduating, I was employed as a Patent Examiner by the United States Patent and Trademark Office, until I finally returned to college to pursue Computer Science. Throughout all of this I have learned both classroom and real life problem solving skills: doing intense mathematical work as a chemical engineering student, working with my hands on presses and machining tools at FNST, and parsing complex documentation regarding the law and new technologies every day examining Patent Applications. From all of this I have gained a holistic understanding of processes, and an ability to confidently tackle difficult problems, whatever form they may take.'},
