@@ -65,7 +65,7 @@
             </h3>
         </div>
         <h3 class="font-semibold text-2xl sm:text-3xl md:text-4xl text-center">
-            (hosting and links are still in development for most)
+            (Links are currently non-functional as hosting is transferred from university)
         </h3>
         <h3 class="font-semibold text-2xl sm:text-3xl md:text-4xl text-center">
             Web Development
